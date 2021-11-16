@@ -67,5 +67,5 @@ Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSign
 * [@helpsystems](https://github.com/helpsystems) for the nanodump exemple
 * [@boku7](https://github.com/boku7) for his awesome work and his kindness
 * [@HackingDave](https://github.com/HackingDave) because he's the owner of a great DeLorean *vroom vroom*
-* The french Read The Fancy Manual community and the CyberThreatForce ([@sigsegv_event](https://twitter.com/sigsegv_event) and [@CTFofficielFR](https://twitter.com/CTFofficielFR))
+* The French Read The Fancy Manual community and the CyberThreatForce ([@sigsegv_event](https://twitter.com/sigsegv_event) and [@CTFofficielFR](https://twitter.com/CTFofficielFR))
 * All infosec enthusiasts who share their knowledge without looking down on other enthusiasts
