@@ -57,7 +57,7 @@ int go(char* args, int length) {
 
 ## Limitations
 
-Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtGetCachedSigningLevel, NtSetCachedSigningLevel, NtCreateSectionEx` syscalls
+Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSigningLevel, NtCreateSectionEx` syscalls
 
 ## Credits
 
