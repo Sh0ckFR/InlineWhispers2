@@ -27,8 +27,8 @@ Now you can use all syscalls that you need:
 #include "syscalls.c"
 
 int go(char* args, int length) {
-	datap  parser;
-	BeaconDataParse(&parser, args, length);
+  datap  parser;
+  BeaconDataParse(&parser, args, length);
   
   int pid = BeaconDataInt(&parser);
 
