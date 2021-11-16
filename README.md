@@ -42,7 +42,7 @@ int go(char* args, int length) {
 	uPid.UniqueThread = (HANDLE)0;
 
   NTSTATUS status = NtOpenProcess(&hProcess, PROCESS_ALL_ACCESS, &ObjectAttributes, &uPid);
-	if (hProcess == NULL || status != 0) {https://github.com/jthuraisamy
+	if (hProcess == NULL || status != 0) {
 		BeaconPrintf(CALLBACK_OUTPUT, "	[ERROR] Failed to get processhandle, status: 0x%lx", status);
 		return 0;
 	}
