@@ -9,6 +9,7 @@ Based on https://github.com/outflanknl/InlineWhispers and https://github.com/hel
 git clone https://github.com/Sh0ckFR/InlineWhispers2 && cd InlineWhispers2
 git clone https://github.com/jthuraisamy/SysWhispers2
 cd SysWhispers2/ && python3 syswhispers.py --preset all -o syscalls_all && cd ..
+python3 InlineWhispers2.py
 ```
 
 ## How to use syscalls in your Cobalt-Strike BOF?
