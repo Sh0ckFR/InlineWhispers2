@@ -66,3 +66,4 @@ Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSign
 * [@outflanknl](https://github.com/outflanknl) for the first version of InlineWhispers
 * [@helpsystems](https://github.com/helpsystems) for the nanodump exemple
 * [@boku7](https://github.com/boku7) for his awesome work and his kindness
+* [@HackingDave](https://github.com/HackingDave) because he's the owner of a great DeLorean *vroom vroom*
