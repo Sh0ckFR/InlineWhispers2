@@ -1,5 +1,5 @@
 # InlineWhispers2
-Tool for working with Direct System Calls in Cobalt Strike's Beacon Object Files (BOF) via Syswhispers2
+Tool for working with Direct System Calls in Cobalt Strike's Beacon Object Files (BOF) via [Syswhispers2](https://github.com/jthuraisamy/SysWhispers2)
 
 Based on https://github.com/outflanknl/InlineWhispers and https://github.com/helpsystems/nanodump work
 
