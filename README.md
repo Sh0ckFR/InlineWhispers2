@@ -25,6 +25,7 @@ Now you can use all syscalls that you need:
 #include "beacon.h"
 
 #include "syscalls.c"
+
 int go(char* args, int length) {
 	datap  parser;
 	BeaconDataParse(&parser, args, length);
