@@ -27,31 +27,31 @@ Now you can use all syscalls that you need:
 #include "syscalls.c"
 
 int go(char* args, int length) {
-  datap  parser;
-  BeaconDataParse(&parser, args, length);
-  
-  int pid = BeaconDataInt(&parser);
+	datap  parser;
+	BeaconDataParse(&parser, args, length);
 
-  BeaconPrintf(CALLBACK_OUTPUT, "	- Opening process: %d.", pid);
+	int pid = BeaconDataInt(&parser);
 
-  HANDLE hProcess = NULL;
+	BeaconPrintf(CALLBACK_OUTPUT, "	- Opening process: %d.", pid);
+
+	HANDLE hProcess = NULL;
 	OBJECT_ATTRIBUTES ObjectAttributes;
 	InitializeObjectAttributes(&ObjectAttributes, NULL, 0, NULL, NULL);
 
-  CLIENT_ID uPid = { 0 };
+	CLIENT_ID uPid = { 0 };
 	uPid.UniqueProcess = (HANDLE)(DWORD_PTR)pid;
 	uPid.UniqueThread = (HANDLE)0;
 
-  NTSTATUS status = NtOpenProcess(&hProcess, PROCESS_ALL_ACCESS, &ObjectAttributes, &uPid);
+	NTSTATUS status = NtOpenProcess(&hProcess, PROCESS_ALL_ACCESS, &ObjectAttributes, &uPid);
 	if (hProcess == NULL || status != 0) {
 		BeaconPrintf(CALLBACK_OUTPUT, "	[ERROR] Failed to get processhandle, status: 0x%lx", status);
 		return 0;
 	}
 	BeaconPrintf(CALLBACK_OUTPUT, "	- Handle: %x", hProcess);
 
-  NtClose(hProcess);
+	NtClose(hProcess);
 
-  return 0;
+	return 0;
 }
 ```
 
