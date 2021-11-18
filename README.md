@@ -3,6 +3,12 @@ Tool for working with Direct System Calls in Cobalt Strike's Beacon Object Files
 
 Based on https://github.com/outflanknl/InlineWhispers and https://github.com/helpsystems/nanodump work
 
+### Note ###
+
+This project is not a fork, the first version of InlineWhispers is based on SysWhispers, this version is for the second version of SysWhispers, to understand what it changes, take a look on it:
+
+[https://github.com/jthuraisamy/SysWhispers2#difference-between-syswhispers-1-and-2](https://github.com/jthuraisamy/SysWhispers2#difference-between-syswhispers-1-and-2)
+
 ## How do I set this up?
 
 ```bash
