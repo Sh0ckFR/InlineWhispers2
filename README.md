@@ -66,7 +66,7 @@ int go(char* args, int length) {
 
 Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSigningLevel, NtCreateSectionEx` syscalls
 
-## Blogposts/GitHubs who used or quoted InlineWhispers2 (thanks to the authors)
+## Blog Posts/GitHubs who used or quoted InlineWhispers2 (thanks to the authors)
 
 * [https://blog.nviso.eu/2021/12/20/kernel-karnage-part-7-out-of-the-lab-and-back-to-reality/](https://blog.nviso.eu/2021/12/20/kernel-karnage-part-7-out-of-the-lab-and-back-to-reality/)
 * [https://github.com/Cerbersec/KillDefenderBOF](https://github.com/Cerbersec/KillDefenderBOF)
