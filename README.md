@@ -70,7 +70,7 @@ Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSign
 
 * [https://blog.nviso.eu/2021/12/20/kernel-karnage-part-7-out-of-the-lab-and-back-to-reality/](https://blog.nviso.eu/2021/12/20/kernel-karnage-part-7-out-of-the-lab-and-back-to-reality/)
 * [https://github.com/Cerbersec/KillDefenderBOF](https://github.com/Cerbersec/KillDefenderBOF)
-* [https://github.com/Cerbersec/notes/blob/fb524d4ea1ec1ebe6bb1264baef9f8df1d057955/README.md](https://github.com/Cerbersec/notes/blob/fb524d4ea1ec1ebe6bb1264baef9f8df1d057955/README.md)
+* [https://github.com/Cerbersec/notes](https://github.com/Cerbersec/notes)
 * [https://github.com/Simpsonpt/AppSecEzine/blob/master/Ezines/405%20-%20AppSec%20Ezine](https://github.com/Simpsonpt/AppSecEzine/blob/master/Ezines/405%20-%20AppSec%20Ezine)
 * [https://github.com/pe3zx/my-infosec-awesome/blob/master/Offensive.md](https://github.com/pe3zx/my-infosec-awesome/blob/master/Offensive.md)
 * [https://github.com/Mr-xn/Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC)
