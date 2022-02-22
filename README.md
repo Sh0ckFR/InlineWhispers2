@@ -75,6 +75,7 @@ Actually, you can't use `NtCallEnclave, NtGetCachedSigningLevel, NtSetCachedSign
 * [https://github.com/pe3zx/my-infosec-awesome/blob/master/Offensive.md](https://github.com/pe3zx/my-infosec-awesome/blob/master/Offensive.md)
 * [https://github.com/Mr-xn/Penetration_Testing_POC](https://github.com/Mr-xn/Penetration_Testing_POC)
 * [https://github.com/BOFs/BOFs](https://github.com/BOFs/BOFs)
+* [https://github.com/N7WEra/BofAllTheThings](https://github.com/N7WEra/BofAllTheThings)
 
 ## Credits
 
