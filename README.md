@@ -13,7 +13,6 @@ This project is not a fork, the first version of InlineWhispers is based on SysW
 
 ```bash
 git clone https://github.com/Sh0ckFR/InlineWhispers2 && cd InlineWhispers2
-git clone https://github.com/jthuraisamy/SysWhispers2
 cd SysWhispers2/ && python3 syswhispers.py --preset all -o syscalls_all && cd ..
 python3 InlineWhispers2.py
 ```
